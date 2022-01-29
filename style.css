@@ -1,0 +1,186 @@
+body{
+  
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-left: 50px;
+    /* border: 3px solid red; */
+    font-size: smaller;
+}
+.social{
+    color: white;
+
+}
+
+/* ????????????????????????????????????? */
+.navbar-img{
+    width: 250px;
+}
+
+
+.navbar{
+    /* border: 3px solid red;  */
+}
+
+
+
+.dropdown-menu{
+    width: 100%;
+}
+.img-fluid{
+    width: 100%;
+    height: 100%;
+}
+.card{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.search{
+    position: relative;
+    /* border: 3px solid red; */
+   
+}
+.search .fa-search{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  
+}
+.search input {
+    width: 150px;
+    height: 32px;
+    text-indent: 32px;
+}
+/* ::content */
+
+.carousel-indicators .tag_img{
+    width: 200px; 
+     /* border: 3px solid red; */
+}
+.carousel-indicators{
+    /* border: 3px solid red; */
+  
+  
+}
+/* ///////// */
+
+/* ////////////////////////////////test */
+
+
+
+
+/*  */
+
+
+.inner{
+ overflow: hidden;
+}
+.inner_1 img{
+    transition: all .5s ease;   
+    width: 100%;   
+    height: 320px;
+}
+.inner_2 img{
+    transition: all .5s ease;
+    height: 220px;
+    width: 100%;
+}
+.card:hover img{
+    transform: scale(1.1);
+    opacity: 0.4;
+}
+
+.container_1{
+    position: relative;
+}
+
+.card-img-overlay a{
+    color: white;
+   position: absolute;
+   top: 90%;
+}
+
+.card-img-overlay h2{
+    color: white;
+    position: absolute;
+    top: 70%;   
+}
+.card-img-overlay h3{
+    position: absolute;
+    top: 60%;    
+}
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////// */
+
+.cont{
+    height: 250px;
+    background-color: rgb(248, 245, 240);
+}
+.cont .cont_8{
+    flex-basis: 12%;
+   
+}
+.cont .cont_8 .card{
+background-color: rgb(248, 245, 240);
+height: 10PX;
+border: 0;
+}
+.cont_8 a{
+    text-decoration: none;
+    color: black;
+}
+.cont_8:hover a{
+
+}
+/* ///////////////// */
+
+.card .card-img-top_4{
+    height: 50%;
+}
+.card:hover .card-img-top_4{
+    transform: scale(1);
+    opacity: 1;
+}
+.card .card-body a{
+   
+    color: rgb(0, 255, 85);
+   
+}
+
+
+/* //////////////////////////////////////// */
+
+.container_3{
+      border: 3px solid red;
+}
+.card-group .card .card-img-top_3{
+    width: 200px;
+    height: 220px;
+   
+}
+
+.card .side_title{
+    /* width: 90%; */
+    height: 55px;
+    border: 1px solid rgb(0, 255, 85);
+}
+.card .right_3 .img-fluid{
+    width: 100px;
+    height: 100px;
+}
+.card .card-img{
+  
+    height: 150px;
+}
+
+
