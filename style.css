@@ -6,8 +6,8 @@ body{
    
 }
 .container{
-    margin-left: 50px;
-    border: 3px solid red;
+    margin-left: 100px;
+    /* border: 3px solid red; */
     font-size: smaller;
 }
 .social{
@@ -57,25 +57,47 @@ body{
     height: 32px;
     text-indent: 32px;
 }
-/* ::carousel content */
+/* ::carousel ???????????????????????????????????????????????????????????????????????????????? */
+.carousel-inner .carousel-item h1{
+    font-size: xxx-large;
+    font-weight: bold;
+    position: absolute;
+    bottom: 300px;
+   left: 250px;
+}
+.carousel-inner .carousel-item span{
+   
+    position: absolute;
+    bottom: 250px;
+    left: 500px;
+}
+.carousel-inner .carousel-item .carousel-caption .social-icons{
+    /* border: 3px solid red; */
+    position: absolute;
+    bottom: 200px;
+    left: 450px;
+}
+.carousel-inner .carousel-item img{
+    height: 550px;
+}
 
 .carousel-indicators .tag_img{
-    width: 200px; 
+    width: 200px;
+    height: 120px; 
      /* border: 3px solid red; */
 }
 .carousel-indicators{
-    /* border: 3px solid red; */
+    /* border: 3px solid rgb(216, 39, 39); */
+    background-color: white;
+    height: 130px;
+    top: 500px;
+    width: 1000px;
+    
   
   
 }
-/* ///////// */
 
-/* ////////////////////////////////test */
-
-
-
-
-/*  */
+/* cat-dog-5////////////////////////////////////////////////////////////////////////////////////// */
 
 
 .inner{
@@ -97,57 +119,47 @@ body{
     opacity: 0.4;
 }
 
-.container_1{
+.cat-dog-5{
     position: relative;
 }
 
-.card-img-overlay a{
+.cat-dog-5 .card-img-overlay a{
     color: white;
    position: absolute;
    top: 90%;
 }
 
-.card-img-overlay h2{
+.cat-dog-5 .card-img-overlay h2{
     color: white;
     position: absolute;
     top: 70%;   
 }
-.card-img-overlay h3{
+.cat-dog-5 .card-img-overlay h3{
     position: absolute;
     top: 60%;    
 }
 
 
+/* cat-dog-8/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-
-
-
-
-
-/* //////////////////////////////////////// */
-
-.cont{
-    height: 250px;
+.cat-dog-8{
+    height: auto;
     background-color: rgb(248, 245, 240);
-    /* border: 3px solid rgb(4, 0, 255); */
+    border: 3px solid rgb(4, 0, 255);
 }
-.cont .cont_8{
-    /* border: 3px solid rgb(0, 255, 85); */
-    width: 130px; 
-}
-.cont img{
+.cat-dog-8 img{
    
     /* border: 3px solid red; */
 }
 
-.cont .cont_8 .card{
+.cat-dog-8 .card{
 background-color: rgb(248, 245, 240);
-width: 120px;
+width: 100px;
 height: 10PX;
 border: 0;
-/* border: 3px solid red; */
+border: 3px solid red;
 }
-.cont .cont_8 .night{
+.cat-dog-8 .night{
     text-decoration: none;
     color: black;
     
@@ -155,101 +167,124 @@ border: 0;
     color: black;
 }
 
-/* ///////////////// */
-.card .cadr_1 .cadr_2{
+/* /cat-dog-10//////////////////////////////////////////////////////////////////////////////// */
+.cat-dog-10{
+    /* border: 3px solid rgb(9, 245, 80); */
+}
+.cat-dog-10 .card .cadr_1{
+    /* border: 3px solid rgb(9, 245, 80); */
+}
+
+.cat-dog-10 .card .cadr_1 .cadr_2{
     /* border: 3px solid rgb(99, 9, 245); */
- height: 600px;
- width: 350px;
+ height: 700px;
+ width: 400px;
  
 
 }
-.card .card-img-top_4{
+.cat-dog-10 .card .card-img-top{
     /* border: 3px solid red; */
     width: 100%;
-   height: 320px;
+   height: 350px;
 }
-.card:hover .card-img-top_4{
+.cat-dog-10 .card:hover .card-img-top{
     transform: scale(1);
     opacity: 1;
 }
-.card .card-body a{
+.cat-dog-10 .card .card-body a{
    /* border: 3px solid red; */
     color: rgb(0, 255, 85);
    
 }
-
-
-/* //////////////////////////////////////// */
-.card-group {
-    /* border: 3px solid rgb(255, 0, 234);  */
-   
+/* .. cat-dog-10-side.///////////////////////////////////////////////////////////////////////////////////////. */
+.cat-dog-10-side{
+    /* border: 3px solid red;  */
+    width: 400px;
 }
-.card-group .card .card-img-top_3{
-    width: 200px;
-    height: 200px;
+.cat-dog-10-side .card .card-img-top_3{
+    width: 300px;
+    height: 300px;
     transform: scale(1);
     opacity: 1;
 }
-.card .card-body p{
+.cat-dog-10-side .card .card-body p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:.875rem;
 }
-.card .card-body .nav-link_box .social_2{
+.cat-dog-10-side .card .card-body .nav-link_box .social_2{
     color: rgb(18, 19, 19);
 }
-.card .card-body .nav-link_box .social_2:hover{
+.cat-dog-10-side .card .card-body .nav-link_box .social_2:hover{
     color: rgb(88, 238, 88); 
 }
-.card .card-body .btn{
+.cat-dog-10-side .card .card-body .btn{
    background-color:rgb(88, 238, 88) ;
    color: white;
    font-size: smaller;
 }
-/* .... */
 
-.card .side_title{
+
+.cat-dog-10-side .card .side_title{
     width: 15rem;
     height: 55px;
     border: 1px solid rgb(0, 255, 85);
 }
-.card .right_3 .img-fluid{
+.cat-dog-10-side .card .right_3 .img-fluid{
     width: 70px;
     height:70px;
     transform: scale(1);
     opacity: 1;
 }
-.card .card-img{
-  
-    height: 150px;
+.cat-dog-10-side .card .card-img-top_5{
+    transform: scale(1);
+    opacity: 1;
 }
-.card .card-title{
+.cat-dog-10-side .card .card-title{
     font-size: 1rem;
-    width: 8rem;
+    width: 10rem;
 }
-  
+.cat-dog-10-side .card #num{
+    font-size: x-large;
+} 
 /* ,,, */
 
-.card-group .card-form{
+.cat-dog-10-side .card-form{
     border-top: 6px solid rgb(115, 175, 25);
     width: 270px;
 }
-.card-group .card-form .card-footer button{
+.cat-dog-10-side .card-form .card-footer button{
     background-color: chartreuse;  
     font-size: small;  
    
 }
-.card-group .card-form .card-footer input{
+.cat-dog-10-side .card-form .card-footer input{
     background-color: rgb(238, 241, 234);    
     font-size: small;
 }
-.card-group .card-form .card-footer {
+.cat-dog-10-side .card-form .card-footer {
     font-size:small
 }
 
 /* ,,, */
-.card-group .card .card-img:hover{
+.cat-dog-10-side .cat-dog-hid .card-img-overlay:hover{
     background-image:url('image/food-1.jpg');
 }
-.card-group .card .card-img-overlay span{
-    color: aquamarine;
+.cat-dog-10-side .cat-dog-hid .card-img-overlay{
+    background-color: rgb(225, 247, 240);
+}
+.cat-dog-hid span{
+    color: rgb(26, 202, 143);
+}
+
+/* cat-dog-6/////////////////////////////////////////////////////////////// */
+.cat-dog-6 .card img{
+    transform: scale(1);
+    opacity: 1;
+    height: 100%;
+    width: 400px;
+}
+.cat-dog-6 .card{
+    /* border: 3px solid red; */
+    height: 600px;
+    
 }
