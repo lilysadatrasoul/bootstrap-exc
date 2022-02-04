@@ -286,7 +286,7 @@ border: 3px solid red;
 /* cat-dog-6/////////////////////////////////////////////////////////////// */
 
 .cat-dog-6{
-    background-color: rgb(238, 224, 227);
+    /* background-color: rgb(238, 224, 227); */
    
 }
 
@@ -301,6 +301,69 @@ border: 3px solid red;
     height: 600px;
     /* background-color: rgb(238, 224, 227);     */
 }
-.card-header-cat-dog-6{
-    background-color: rgb(221, 187, 194);
+.cat-dog-6 .card .card-img-overlay h3 a{
+ color: white;
+ position: absolute;
+ top: 70%;
+ text-decoration:none;
+
 }
+.cat-dog-6 .card .card-img-overlay span a{
+    color: white;
+    position: absolute;
+    top: 80%;
+    text-decoration:none;
+    font-size: larger;
+   }
+   #num-comment{
+    color: white;
+    position: absolute;
+    top: 80%;
+    text-decoration:none;
+    left: 170px; 
+    font-size: larger;
+   }
+   .cat-dog-6 .card .card-img-overlay a i{
+    color: white;
+    position: absolute;
+    top: 80%;
+    text-decoration:none;
+    left: 150px;
+    font-size: larger;
+   }
+
+/*cat-dog-1 ///////////////////////////////////// */
+.cat-dog-1  .card .card-img{
+    width: 90%;
+    height: 450px;
+    transform: scale(1);
+    opacity: 1;
+}
+.cat-dog-1 .card .card-img-overlay h1{
+    position: absolute;
+   bottom: 200px;
+   left: 30%;
+}
+.cat-dog-1 .card .card-img-overlay a i{
+    position: absolute;
+    top: 60%;
+    text-decoration:none;
+    left: 50%;
+    font-size: larger;
+   }
+   #num-comment-1{
+    color: white;
+    position: absolute;
+    top: 60%;
+    text-decoration:none;
+    left: 49%; 
+    font-size: x-larger;
+   }
+   #title{
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    text-decoration:none;
+   
+   }
