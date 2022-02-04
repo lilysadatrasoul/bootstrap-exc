@@ -15,7 +15,7 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
+        <div class="container fs-6 border border-0">
           
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item me-3">
@@ -29,30 +29,31 @@
               </li>                            
             </ul> 
               <div class="d-flex ms-1 ">               
-                  <a class="nav-link" href="#"><i class="social me-2 fa fa-facebook"></i></a>
-                  <a class="nav-link" href="#"> <i class="social me-2 fa fa-twitter"></i></a>
-                  <a class="nav-link" href="#"><i class="social me-2 fa fa-instagram"></i></a>
-                  <a class="nav-link" href="#"><i class="social me-2 fab fa-pinterest-p"></i></a>
-                  <a class="nav-link" href="#"><i class="social me-2 fab fa-youtube"></i></a>     
+                  <a class="nav-link text-white" href="#"><i class="social me-2 fa fa-facebook"></i></a>
+                  <a class="nav-link text-white" href="#"> <i class="social me-2 fa fa-twitter"></i></a>
+                  <a class="nav-link text-white" href="#"><i class="social me-2 fa fa-instagram"></i></a>
+                  <a class="nav-link text-white" href="#"><i class="social me-2 fab fa-pinterest-p"></i></a>
+                  <a class="nav-link text-white" href="#"><i class="social me-2 fab fa-youtube"></i></a>     
               </div>          
           
         </div>
     </nav>
 
+
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container">
-          <a class="navbar-brand ms-3" href="#"><img src="./image/logo.png"class="navbar-img" ></a>
+        <div class="container border border-5">
+          <a class="navbar-brand " href="#"><img src="./image/logo.png"class="navbar-img" ></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse d-flex justify-content-end position-relative navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto ms-2 mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
+          <div class="collapse d-flex justify-content-end position-relative navbar-collapse border border-0" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 ms-2 mb-lg-0 ">
+              <li class="nav-item dropdown shop-hov border border-0 ">
                 <a class="nav-link text-danger active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   HOME
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Main Home</a></li>
+                <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item " href="#">Main Home</a></li>
                   <li><a class="dropdown-item" href="#">Adaptive Masonry Home</a></li>
                   <li><a class="dropdown-item" href="#">Adaptive Masonry Home 2</li>
                   <li><a class="dropdown-item" href="#">Food Blog/Light</a></li> 
@@ -66,7 +67,7 @@
                   <li><a class="dropdown-item" href="#">Food & Photography</a></li>  
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown shop-hov">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   RECIPES
                 </a>
@@ -79,61 +80,108 @@
                   <li><a class="dropdown-item" href="#">Recipe Roundup</a></li>   
                 </ul>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  FEATURES
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>   
-                </ul>
+              <li class="nav-item dropdown dropdown-mega position-static feat-hov w-100">
+                <a class="nav-link dropdown-toggle  agreen" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">FEATURE</a>
+                <div class="dropdown-menu w-100 shadow">
+                  <div class="mega-content pe-6 w-100" >
+                    <div class="container-fluid ">
+                      <div class="row">
+                        <div class="col-12 col-sm-4 col-md-3 pe-4 ">
+
+                          <div class="list-group w-100 me-5 pe-5 ps-5">
+                            <a class="dropdown-item" href="#"><h5>Single post</h5></a>
+                            <a class="dropdown-item" href="#">Post Template 1</a>
+                            <a class="dropdown-item" href="#">Post Template 1: Left Sidebar</a>
+                            <a class="dropdown-item" href="#">Post Template 1: Right Sidebar</a>
+                            <a class="dropdown-item" href="#">Post Template 1: Right Sidebar</a>
+                            <a class="dropdown-item" href="#">Post Template 2: Left Sidebar</a>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-3 pe-5 ps-5 ms-5 me-5">
+                          <a class="dropdown-item" href="#"><h5>Single post</h5></a>
+                          <a class="dropdown-item" href="#">Post Template 2: Right Sidebar</a>
+                          <a class="dropdown-item" href="#">Post Template 3</a>
+                          <a class="dropdown-item" href="#">Post Template 3: Left Sidebar</a>
+                          <a class="dropdown-item" href="#">Post Template 3: Right Sidebar</a>
+                          <a class="dropdown-item" href="#">Post Template 4</a>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-3 pe-5 ps-5 ms-5 me-5">
+                          <a class="dropdown-item" href="#"><h5>POST FORMAT</h5></a>
+                          <a class="dropdown-item" href="#">Standard Post</a>
+                          <a class="dropdown-item" href="#">Gallery Post</a>
+                          <a class="dropdown-item" href="#">Gallery Post 2</a>
+                          <a class="dropdown-item" href="#">video Post</a>
+                          <a class="dropdown-item" href="#">video Post 2</a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 pe-5 ps-5 ms-5 me-5">
+                          <a class="dropdown-item" href="#"><h5>ELEMENT</h5></a>
+                          <a class="dropdown-item" href="#">Justified Gallery</a>
+                          <a class="dropdown-item" href="#">Slider Gallery</a>
+                          <a class="dropdown-item" href="#">Video Block</a>
+                          <a class="dropdown-item" href="#">Buttons & Dividers</a>
+                          <a class="dropdown-item" href="#">Accordions & Tabs</a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 pe-5 ps-5 ms-5 me-5">
+                          <a class="dropdown-item" href="#"><h5>ELEMENT</h5></a>
+                          <a class="dropdown-item" href="#">Products Block</a>
+                          <a class="dropdown-item" href="#">Product Categories</a>
+                          <a class="dropdown-item" href="#">Cover Block</a>
+                          <a class="dropdown-item" href="#">Misc Blocks</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown shop-hov">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   PAGES
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>   
+                  <li><a class="dropdown-item" href="#">About Me</a></li>
+                  <li><a class="dropdown-item" href="#">About Me: Simple</a></li>
+                  <li><a class="dropdown-item" href="#">Contact Me</a></li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                  <li><a class="dropdown-item" href="#">Author Page</a></li>
+                  <li><a class="dropdown-item" href="#">Search Results</a></li>
+                  <li><a class="dropdown-item" href="#">404 Page</a></li>
                 </ul>
               </li>     
-              <li class="nav-item dropdown dropdown-mega position-static">
+              <li class="nav-item dropdown dropdown-mega position-static cors-hov ">
                   <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">COURSES</a>
                   <div class="dropdown-menu  shadow " >
                     <div class="mega-content ">
                       <div class="container-fluid">
                         <div class="row flex-nowrap">
-                          <div class="col-12 col-sm-4 col-md-3 py-5 px-5">
+                          <div class="col-12 col-sm-4 col-md-3 pe-1 ">
                             <div class="card">
-                              <img src="./image/1right.jpg" class="img-fluid rounded-start" alt="image">
+                              <img src="./image/food-4.jpg" class="img-fluid rounded-start" alt="image">
                            </div>
                           </div>                          
-                          <div class="col-12 col-sm-4 col-md-3 py-4">
+                          <div class="col-12 col-sm-4 col-md-3 pe-1">
                            <div class="card">
-                              <img src="./image/1right.jpg" class="img-fluid" alt="image">
+                              <img src="./image/food-3.jpg" class="img-fluid" alt="image">
                            </div>
                           </div>
-                          <div class="col-12 col-sm-4 col-md-3 py-4">
+                          <div class="col-12 col-sm-4 col-md-3 pe-1">
                             <div class="card">
-                               <img src="./image/1right.jpg" class="img-fluid" alt="image">
+                               <img src="./image/food-5.jpg" class="img-fluid" alt="image">
                             </div>
                            </div>
-                           <div class="col-12 col-sm-4 col-md-3 py-4">
+                           <div class="col-12 col-sm-4 col-md-3 pe-1">
                             <div class="card">
-                               <img src="./image/1right.jpg" class="img-fluid" alt="image">
+                               <img src="./image/food-6.jpg" class="img-fluid" alt="image">
                             </div>
                            </div>
-                           <div class="col-12 col-sm-4 col-md-3 py-4">
+                           <div class="col-12 col-sm-4 col-md-3 pe-1">
                             <div class="card">
-                               <img src="./image/1right.jpg" class="img-fluid" alt="image">
+                               <img src="./image/food-5.jpg" class="img-fluid" alt="image">
                             </div>
                            </div>
-                           <div class="col-12 col-sm-4 col-md-3 py-4">
+                           <div class="col-12 col-sm-4 col-md-3 pe-1">
                             <div class="card">
-                               <img src="./image/1right.jpg" class="img-fluid" alt="image">
+                               <img src="./image/food-3.jpg" class="img-fluid" alt="image">
                             </div>
                            </div>                   
                         </div>
@@ -141,15 +189,16 @@
                     </div>
                   </div>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown shop-hov">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   SHOP
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>   
+                  <li><a class="dropdown-item" href="#">shop Page</a></li>
+                  <li><a class="dropdown-item" href="#">Single product</a></li>
+                  <li><a class="dropdown-item" href="#">cart</a></li>
+                  <li><a class="dropdown-item" href="#">check out</a></li>
+                  <li><a class="dropdown-item" href="#">my account</a></li>
                 </ul>
               </li>
               <li class="nav-item ">
@@ -167,6 +216,28 @@
         </div>
     </nav>     
   </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
 
   <!-- carousel?????????????????????????????????????????????????????????????????????????????????????????????????????????????????? -->
 
@@ -267,26 +338,26 @@
       <p class="font-monospace mt-5 mb-5 pt-5 pb-5">  <h5 class=" d-flex justify-content-center"> Most Popular Recipe </h5></p> 
 
 
-      <div class="  row row-cols-1 row-cols-md-2 g-4 ms-5 me-5 mt-3  border border-5 ">
-        <div class="col cat-dog-5 pe-0  border border-5">
-          <div class="card text-white   border border-5" >
-            <div class="inner_1 border border-5">
+      <div class="  row row-cols-1 row-cols-md-2 g-4 ms-5 me-5 mt-3  border border-0 ">
+        <div class="col cat-dog-5 pe-0  border border-0">
+          <div class="card text-white   border border-0" >
+            <div class="inner_1 border border-0">
               <img src="./image/food-4.jpg" class="card-img-top" alt="...">
             </div>            
-            <div class="card-img-overlay">
+            <div class="card-img-overlay ">
               <h2 class="card-title">Almond Pastry Cookies</h2>
-              <span class="card-title-tag"><a href="#">SWEET</a></span>              
+              <span class="card-title-tag"><a href="#" class="text-decoration-none">SWEET</a></span>              
             </div>
           </div>
         </div>
         <div class="col cat-dog-5 ps-0">
-          <div class="card text-white">
-            <div class="inner_1">
+          <div class="card text-white border border-0">
+            <div class="inner_1 ">
               <img src="./image/food-4.jpg" class="card-img-top" alt="...">
             </div> 
             <div class="card-img-overlay">
               <h2 class="card-title">8 EASY Instant Pot Recipe</h2>              
-              <span class="card-title-tag"><a href="#">APPETIZER/SOUP</a></span>
+              <span class="card-title-tag"><a href="#" class="text-decoration-none">APPETIZER/SOUP</a></span>
             </div>
           </div>
         </div>
@@ -294,35 +365,35 @@
 
       <div class="row row-cols-1 row-cols-md-3 g-4 ms-5 me-5  ps-1 pe-1">
         <div class="col cat-dog-5 pe-0">
-          <div class="card text-white">
+          <div class="card text-white border border-0">
             <div class="inner_2">
               <img src="./image/food-4.jpg" class="card-img-top" alt="...">
             </div> 
             <div class="card-img-overlay">
               <h3 class="card-title">Enjoy My Favorite Molten Chocolate Cake</h3>              
-              <span class="card-title-tag"><a href="#">BREAD/SWEET</a></span>
+              <span class="card-title-tag"><a href="#" class="text-decoration-none">BREAD/SWEET</a></span>
             </div>
           </div>
         </div>
         <div class="col cat-dog-5 pe-0">
-          <div class="card text-white">
+          <div class="card text-white border border-0">
             <div class="inner_2">
               <img src="./image/food-4.jpg" class="card-img-top" alt="...">
             </div> 
             <div class="card-img-overlay">
               <h3 class="card-title">Rustic Crusty Bread</h3>              
-              <span class="card-title-tag"><a href="#">BREAD/SWEET</a></span>
+              <span class="card-title-tag"><a href="#" class="text-decoration-none">BREAD/SWEET</a></span>
             </div>
           </div>
         </div>
         <div class="col cat-dog-5">
-          <div class="card text-white">
+          <div class="card text-white border border-0">
             <div class="inner_2">
               <img src="./image/food-4.jpg" class="card-img-top" alt="...">
             </div> 
             <div class="card-img-overlay">
               <h3 class="card-title">Rose Syrup Ice Tea</h3>              
-              <span class="card-title-tag"><a href="#">BEVERAGES</a></span>
+              <span class="card-title-tag"><a href="#" class="text-decoration-none">BEVERAGES</a></span>
             </div>
           </div>
         </div>
@@ -338,20 +409,7 @@
        -->
 
        <!-- cat-dog-8?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????? -->
-       <!-- <div class="cat-dog-foot-6 ">
-        <div class="lable-circle rounded-circle bg-white ">
-        <h2><a href="#" class="text-decoration-none fs-5 text-black text-center">Follow Me @Instagram</a></h2>
-        </div>
-        <div class="row row-cols-md-8">
-          <div class="col pe-0 ps-0"><img class="img-responsive w-100 h-100" src="./image/64.jpg" alt=""></div>
-          <div class="col pe-0 ps-0"><img class="img-responsive w-100" src="./image/food-3.jpg" alt=""></div>
-          <div class="col pe-0 ps-0"><img class="img-responsive w-100 " src="./image/63.jpg" alt=""></div>
-          <div class="col pe-0 ps-0"><img class="img-responsive w-100 h-100" src="./image/FOOD_97.jpg" alt=""></div>
-          <div class="col pe-0 ps-0"><img class="img-responsive w-100 h-100" src="./image/61.jpg" alt=""></div>
-          <div class="col pe-0 ps-0"><img class="img-responsive w-100 h-100" src="./image/62.jpg" alt=""></div>
-          
-        </div>
-      </div> -->
+    
 
       <div class="cat-dog-8 row  row-cols-md-8   mt-5 mb-5  ">
       

@@ -6,7 +6,7 @@ body{
    
 }
 .container{
-    margin-left: 100px;
+    margin-left: 80px;
     /* border: 3px solid red; */
     font-size: smaller;
 }
@@ -22,7 +22,7 @@ body{
 
 
 .navbar{
-    /* border: 3px solid red;  */
+  font-size: small;
 }
 
 
@@ -57,6 +57,23 @@ body{
     height: 32px;
     text-indent: 32px;
 }
+
+.feat-hov:hover > div {
+    display: block;
+    width: 100%;
+}
+
+.cors-hov:hover > div {
+    color: #4fd675;
+    display: block;
+}
+.shop-hov:hover > ul{
+    display: block;
+}
+/* .collapse .navbar-nav .nav-item .dropdown-menu .mega-content{
+    display: flex;
+    justify-content: flex-start;
+} */
 /* ::carousel ???????????????????????????????????????????????????????????????????????????????? */
 .carousel-inner .carousel-item h1{
     font-size: xxx-large;
@@ -87,7 +104,7 @@ body{
      /* border: 3px solid red; */
 }
 .carousel-indicators{
-    /* border: 3px solid rgb(216, 39, 39); */
+    border: 3px solid rgb(216, 39, 39);
     background-color: white;
     height: 130px;
     top: 500px;
@@ -114,7 +131,7 @@ body{
     height: 220px;
     width: 100%;
 }
-.card:hover img{
+.cat-dog-5:hover img{
     transform: scale(1.1);
     opacity: 0.4;
 }
@@ -183,10 +200,7 @@ border: 0;
     width: 100%;
    height: 350px;
 }
-.cat-dog-10 .card:hover .card-img-top{
-    transform: scale(1);
-    opacity: 1;
-}
+
 .cat-dog-10 .card .card-body a{
    /* border: 3px solid red; */
     color: rgb(0, 255, 85);
@@ -200,8 +214,6 @@ border: 0;
 .cat-dog-10-side .card .card-img-top_3{
     width: 300px;
     height: 300px;
-    transform: scale(1);
-    opacity: 1;
 }
 .cat-dog-10-side .card .card-body p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -228,10 +240,6 @@ border: 0;
 .cat-dog-10-side .card .right_3 .img-fluid{
     width: 70px;
     height:70px;
-    transform: scale(1);
-    opacity: 1;
-}
-.cat-dog-10-side .card .card-img-top_5{
     transform: scale(1);
     opacity: 1;
 }
@@ -287,8 +295,6 @@ border: 0;
 }
 
 .cat-dog-6 .card img{
-    transform: scale(1);
-    opacity: 1;
     height: 90%;
     width: 95%;
 }
@@ -332,8 +338,6 @@ border: 0;
 .cat-dog-1  .card .card-img{
     width: 90%;
     height: 450px;
-    transform: scale(1);
-    opacity: 1;
 }
 .cat-dog-1 .card .card-img-overlay h1{
     position: absolute;
