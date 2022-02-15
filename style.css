@@ -285,6 +285,10 @@ border: 0;
     height: 100%;
     background-color: rgb(225, 247, 240);
 }
+.cat-dog-hid{
+    width: 22rem;
+    height: 12rem;
+}
 .cat-dog-hid span{
     color: rgb(26, 202, 143);
 }
@@ -373,8 +377,8 @@ border: 0;
     position: absolute;
     width: 150px;
     height: 150px;
-    left: 45%;
-    top: 20%;
+    left: 40%;
+    top: 25%;
 }
 .cat-dog-foot-6 .lable-circle a{
     position: absolute;
