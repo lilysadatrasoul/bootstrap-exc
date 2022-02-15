@@ -288,12 +288,7 @@ border: 0;
 .cat-dog-hid span{
     color: rgb(26, 202, 143);
 }
-@media (max-width: 1200px){
-    .cat-dog-10-side{
-     margin-bottom: 1000px;
-    }
- 
-   }
+
 /* cat-dog-6/////////////////////////////////////////////////////////////// */
 
 
@@ -302,8 +297,8 @@ border: 0;
     width: 95%;
 }
 .cat-dog-6 .card{
- 
-    /* height: 600px; */
+ border: 3px solid red;
+    height: 600px;
   
 }
 .cat-dog-6 .card .card-img-overlay h3 a{
