@@ -6,27 +6,20 @@ body{
    
 }
 .container{
-    margin-left: 80px;
-    /* border: 3px solid red; */
+    margin-left: 100px;
     font-size: smaller;
 }
 .social{
     color: white;
 
 }
-
 /* ????????????????????????????????????? */
 .navbar-img{
     width: 250px;
 }
-
-
 .navbar{
   font-size: small;
 }
-
-
-
 .dropdown-menu{
     width: 100%;
 }
@@ -39,11 +32,43 @@ body{
     height: 100%;
 }
 
-
+.nav-item .home-cover{
+    width: 200px;
+    font-size: small;
+   
+}
+.nav-item .recipes-cover{
+    font-size: small;
+}
+.nav-item .feature-cover{
+    left: -200px;
+    width: 1200px;
+    font-size: small;
+   
+}
+.nav-item .pages-cover{
+    font-size: small;
+}
+.nav-item .course-cover{
+    left: -250px;
+    width: 1200px;
+    height: 200px;
+    font-size: small;
+}
+.nav-item .shop-cover{
+    font-size: small;
+}
+.nav-item .course-cover img {
+    height: 180px;
+    width: 180px;    
+}
+.nav-item .course-cover .card {
+    height: 180px;
+    width: 180px;    
+}
 
 .search{
     position: relative;
-    /* border: 3px solid red; */
    
 }
 .search .fa-search{
@@ -70,56 +95,47 @@ body{
 .shop-hov:hover > ul{
     display: block;
 }
-/* .collapse .navbar-nav .nav-item .dropdown-menu .mega-content{
-    display: flex;
-    justify-content: flex-start;
-} */
+
 /* ::carousel ???????????????????????????????????????????????????????????????????????????????? */
 .carousel-inner .carousel-item h1{
     font-size: xxx-large;
     font-weight: bold;
     position: absolute;
     bottom: 300px;
-   left: 250px;
+   left: 100px;
 }
 .carousel-inner .carousel-item span{
    
     position: absolute;
     bottom: 250px;
-    left: 500px;
+    left: 370px;
 }
 .carousel-inner .carousel-item .carousel-caption .social-icons{
-    /* border: 3px solid red; */
     position: absolute;
     bottom: 200px;
-    left: 450px;
+    left: 300px;
 }
 .carousel-inner .carousel-item img{
     height: 550px;
 }
 
 .carousel-indicators .tag_img{
-    width: 200px;
-    height: 120px; 
-     /* border: 3px solid red; */
+    width:100%;
 }
 .carousel-indicators{
-    border: 3px solid rgb(216, 39, 39);
     background-color: white;
-    height: 130px;
+    height: 140px;
     top: 500px;
     width: 1000px;
-    
-  
-  
 }
 
 /* cat-dog-5////////////////////////////////////////////////////////////////////////////////////// */
 
-
-.inner{
+.cat-dog-5 .card .inner_1 {
  overflow: hidden;
- backface-visibility: hidden;
+}
+.cat-dog-5 .card .inner_2{
+    overflow: hidden;
 }
 .inner_1 img{
     transition: all .5s ease;   
@@ -162,17 +178,12 @@ body{
 .cat-dog-8{
     height: auto;
     background-color: rgb(247, 242, 245);
-    /* border: 3px solid rgb(4, 0, 255); */
-}
-.cat-dog-8 img{
-   
-    /* border: 3px solid red; */
+    
 }
 
 .cat-dog-8 .card{
 background-color: rgb(248, 245, 240);
-width: 100px;
-height: 10PX;
+width: 160px;
 border: 0;
 
 }
@@ -182,33 +193,28 @@ border: 0;
 
 /* /cat-dog-10//////////////////////////////////////////////////////////////////////////////// */
 .cat-dog-10{
-    /* border: 3px solid rgb(9, 245, 80); */
+ 
 }
 .cat-dog-10 .card .cadr_1{
-    /* border: 3px solid rgb(9, 245, 80); */
 }
 
 .cat-dog-10 .card .cadr_1 .cadr_2{
-    /* border: 3px solid rgb(99, 9, 245); */
  height: 700px;
  width: 400px;
  
 
 }
 .cat-dog-10 .card .card-img-top{
-    /* border: 3px solid red; */
     width: 100%;
    height: 350px;
 }
 
 .cat-dog-10 .card .card-body a{
-   /* border: 3px solid red; */
     color: rgb(0, 255, 85);
    
 }
 /* .. cat-dog-10-side.///////////////////////////////////////////////////////////////////////////////////////. */
 .cat-dog-10-side{
-    /* border: 3px solid red;  */
     width: 400px;
 }
 .cat-dog-10-side .card .card-img-top_3{
@@ -230,8 +236,6 @@ border: 0;
    color: white;
    font-size: smaller;
 }
-
-
 .cat-dog-10-side .card .side_title{
     width: 22rem;
     height: 55px;
@@ -254,7 +258,6 @@ border: 0;
 .right_3 .title .card-title{
     width: 22rem;
 }
-/* ,,, */
 
 .cat-dog-10-side .card-form{
     border-top: 6px solid rgb(115, 175, 25);
@@ -274,7 +277,6 @@ border: 0;
     font-size:small
 }
 
-/* ,,, */
 .cat-dog-10-side .cat-dog-hid .card-img-overlay:hover{
     background-image:url('image/food-1.jpg');
 }
@@ -286,22 +288,23 @@ border: 0;
 .cat-dog-hid span{
     color: rgb(26, 202, 143);
 }
-
+@media (max-width: 1200px){
+    .cat-dog-10-side{
+     margin-bottom: 1000px;
+    }
+ 
+   }
 /* cat-dog-6/////////////////////////////////////////////////////////////// */
 
-.cat-dog-6{
-    /* background-color: rgb(238, 224, 227); */
-   
-}
 
 .cat-dog-6 .card img{
     height: 90%;
     width: 95%;
 }
 .cat-dog-6 .card{
-    /* border: 3px solid red; */
-    height: 600px;
-    /* background-color: rgb(238, 224, 227);     */
+ 
+    /* height: 600px; */
+  
 }
 .cat-dog-6 .card .card-img-overlay h3 a{
  color: white;
@@ -322,7 +325,7 @@ border: 0;
     position: absolute;
     top: 80%;
     text-decoration:none;
-    left: 170px; 
+    left: 190px; 
     font-size: larger;
    }
    .cat-dog-6 .card .card-img-overlay a i{
@@ -330,7 +333,7 @@ border: 0;
     position: absolute;
     top: 80%;
     text-decoration:none;
-    left: 150px;
+    left: 170px;
     font-size: larger;
    }
 

@@ -12,9 +12,11 @@
     <script src="./bootstrap.min.js"></script>
   
 </head>
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+  <!-- navbar 1-->
+
+      <nav class="navbar navbar-expand-lg d-none d-lg-flex navbar-dark bg-dark">
         <div class="container fs-6 border border-0">
           
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -37,22 +39,23 @@
               </div>          
           
         </div>
-    </nav>
+      </nav>
 
+<!-- navbar 2 -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container border border-5">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid border border-0">
           <a class="navbar-brand " href="#"><img src="./image/logo.png"class="navbar-img" ></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse d-flex justify-content-end position-relative navbar-collapse border border-0" id="navbarSupportedContent">
+          <div class="collapse position-relative navbar-collapse border border-0" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 ms-2 mb-lg-0 ">
               <li class="nav-item dropdown shop-hov border border-0 ">
                 <a class="nav-link text-danger active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   HOME
                 </a>
-                <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu  home-cover " aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item " href="#">Main Home</a></li>
                   <li><a class="dropdown-item" href="#">Adaptive Masonry Home</a></li>
                   <li><a class="dropdown-item" href="#">Adaptive Masonry Home 2</li>
@@ -71,7 +74,7 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   RECIPES
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu recipes-cover" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Recipe Index</a></li>
                   <li><a class="dropdown-item" href="#">Single Recipe </a></li>
                   <li><a class="dropdown-item" href="#">Recipe Review & Rating</a></li>
@@ -82,13 +85,13 @@
               </li>
               <li class="nav-item dropdown dropdown-mega position-static feat-hov w-100">
                 <a class="nav-link dropdown-toggle  agreen" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">FEATURE</a>
-                <div class="dropdown-menu w-100 shadow">
-                  <div class="mega-content pe-6 w-100" >
+                <div class="dropdown-menu feature-cover shadow">
+                  <div class="mega-content " >
                     <div class="container-fluid ">
                       <div class="row">
-                        <div class="col-12 col-sm-4 col-md-3 pe-4 ">
+                        <div class="sm-col-12 col-4 col-md-2  ">
 
-                          <div class="list-group w-100 me-5 pe-5 ps-5">
+                          <div class="list-group w-100 me-5 ps-5">
                             <a class="dropdown-item" href="#"><h5>Single post</h5></a>
                             <a class="dropdown-item" href="#">Post Template 1</a>
                             <a class="dropdown-item" href="#">Post Template 1: Left Sidebar</a>
@@ -97,7 +100,7 @@
                             <a class="dropdown-item" href="#">Post Template 2: Left Sidebar</a>
                           </div>
                         </div>
-                        <div class="col-12 col-sm-4 col-md-3 pe-5 ps-5 ms-5 me-5">
+                        <div class="col-12 col-sm-4 col-md-2 ps-5 ms-5">
                           <a class="dropdown-item" href="#"><h5>Single post</h5></a>
                           <a class="dropdown-item" href="#">Post Template 2: Right Sidebar</a>
                           <a class="dropdown-item" href="#">Post Template 3</a>
@@ -105,7 +108,7 @@
                           <a class="dropdown-item" href="#">Post Template 3: Right Sidebar</a>
                           <a class="dropdown-item" href="#">Post Template 4</a>
                         </div>
-                        <div class="col-12 col-sm-4 col-md-3 pe-5 ps-5 ms-5 me-5">
+                        <div class="col-12 col-sm-4 col-md-2 ps-5 ms-5 ">
                           <a class="dropdown-item" href="#"><h5>POST FORMAT</h5></a>
                           <a class="dropdown-item" href="#">Standard Post</a>
                           <a class="dropdown-item" href="#">Gallery Post</a>
@@ -113,7 +116,7 @@
                           <a class="dropdown-item" href="#">video Post</a>
                           <a class="dropdown-item" href="#">video Post 2</a>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-3 pe-5 ps-5 ms-5 me-5">
+                        <div class="col-12 col-sm-12 col-md-2 ps-5 ms-5">
                           <a class="dropdown-item" href="#"><h5>ELEMENT</h5></a>
                           <a class="dropdown-item" href="#">Justified Gallery</a>
                           <a class="dropdown-item" href="#">Slider Gallery</a>
@@ -121,7 +124,7 @@
                           <a class="dropdown-item" href="#">Buttons & Dividers</a>
                           <a class="dropdown-item" href="#">Accordions & Tabs</a>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-3 pe-5 ps-5 ms-5 me-5">
+                        <div class="col-12 col-sm-12 col-md-2 ps-5 ms-5">
                           <a class="dropdown-item" href="#"><h5>ELEMENT</h5></a>
                           <a class="dropdown-item" href="#">Products Block</a>
                           <a class="dropdown-item" href="#">Product Categories</a>
@@ -137,7 +140,7 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   PAGES
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu pages-cover" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">About Me</a></li>
                   <li><a class="dropdown-item" href="#">About Me: Simple</a></li>
                   <li><a class="dropdown-item" href="#">Contact Me</a></li>
@@ -150,36 +153,36 @@
               </li>     
               <li class="nav-item dropdown dropdown-mega position-static cors-hov ">
                   <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">COURSES</a>
-                  <div class="dropdown-menu  shadow " >
-                    <div class="mega-content ">
-                      <div class="container-fluid">
-                        <div class="row flex-nowrap">
-                          <div class="col-12 col-sm-4 col-md-3 pe-1 ">
-                            <div class="card">
+                  <div class="dropdown-menu course-cover shadow " >
+                    <div class="mega-content  ">
+                      <div class="container-fluid ">
+                        <div class="row flex-nowrap ">
+                          <div class="col-12 col-sm-5 col-md-2 ">
+                            <div class="card border border-0">
                               <img src="./image/food-4.jpg" class="img-fluid rounded-start" alt="image">
                            </div>
                           </div>                          
-                          <div class="col-12 col-sm-4 col-md-3 pe-1">
+                          <div class="col-12 col-sm-5 col-md-2">
                            <div class="card">
                               <img src="./image/food-3.jpg" class="img-fluid" alt="image">
                            </div>
                           </div>
-                          <div class="col-12 col-sm-4 col-md-3 pe-1">
+                          <div class="col-12 col-sm-5 col-md-2">
                             <div class="card">
                                <img src="./image/food-5.jpg" class="img-fluid" alt="image">
                             </div>
                            </div>
-                           <div class="col-12 col-sm-4 col-md-3 pe-1">
+                           <div class="col-12 col-sm-5 col-md-2">
                             <div class="card">
                                <img src="./image/food-6.jpg" class="img-fluid" alt="image">
                             </div>
                            </div>
-                           <div class="col-12 col-sm-4 col-md-3 pe-1">
+                           <div class="col-12 col-sm-5 col-md-2">
                             <div class="card">
                                <img src="./image/food-5.jpg" class="img-fluid" alt="image">
                             </div>
                            </div>
-                           <div class="col-12 col-sm-4 col-md-3 pe-1">
+                           <div class="col-12 col-sm-5 col-md-2">
                             <div class="card">
                                <img src="./image/food-3.jpg" class="img-fluid" alt="image">
                             </div>
@@ -193,7 +196,7 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   SHOP
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu shop-cover" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">shop Page</a></li>
                   <li><a class="dropdown-item" href="#">Single product</a></li>
                   <li><a class="dropdown-item" href="#">cart</a></li>
@@ -214,35 +217,13 @@
             </div> 
           </div>
         </div>
-    </nav>     
-  </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
+      </nav>     
   
 
   <!-- carousel?????????????????????????????????????????????????????????????????????????????????????????????????????????????????? -->
 
-  <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
-    <div class="carousel-indicators order order-5">
+      <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-indicators ">
       <button type="button" data-bs-target="#carouselExa eCaptions" data-bs-slide-to="0" class="tag_img active " aria-current="true" aria-label="Slide 1">
           <img src="./image/food-1.jpg" class="d-block w-100 " alt="...">
       </button>
@@ -331,7 +312,7 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
+      </div>
 
  <!-- cat-dog-5???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????? -->
 
@@ -342,7 +323,7 @@
         <div class="col cat-dog-5 pe-0  border border-0">
           <div class="card text-white   border border-0" >
             <div class="inner_1 border border-0">
-              <img src="./image/food-4.jpg" class="card-img-top" alt="...">
+              <img src="./image/food-3.jpg" class="card-img-top" alt="...">
             </div>            
             <div class="card-img-overlay ">
               <h2 class="card-title">Almond Pastry Cookies</h2>
@@ -353,7 +334,7 @@
         <div class="col cat-dog-5 ps-0">
           <div class="card text-white border border-0">
             <div class="inner_1 ">
-              <img src="./image/food-4.jpg" class="card-img-top" alt="...">
+              <img src="./image/food-2.jpg" class="card-img-top" alt="...">
             </div> 
             <div class="card-img-overlay">
               <h2 class="card-title">8 EASY Instant Pot Recipe</h2>              
@@ -367,7 +348,7 @@
         <div class="col cat-dog-5 pe-0">
           <div class="card text-white border border-0">
             <div class="inner_2">
-              <img src="./image/food-4.jpg" class="card-img-top" alt="...">
+              <img src="./image/food-5.jpg" class="card-img-top" alt="...">
             </div> 
             <div class="card-img-overlay">
               <h3 class="card-title">Enjoy My Favorite Molten Chocolate Cake</h3>              
@@ -378,7 +359,7 @@
         <div class="col cat-dog-5 pe-0">
           <div class="card text-white border border-0">
             <div class="inner_2">
-              <img src="./image/food-4.jpg" class="card-img-top" alt="...">
+              <img src="./image/food-6.jpg" class="card-img-top" alt="...">
             </div> 
             <div class="card-img-overlay">
               <h3 class="card-title">Rustic Crusty Bread</h3>              
@@ -389,7 +370,7 @@
         <div class="col cat-dog-5">
           <div class="card text-white border border-0">
             <div class="inner_2">
-              <img src="./image/food-4.jpg" class="card-img-top" alt="...">
+              <img src="./image/food-8-img6.jpg" class="card-img-top" alt="...">
             </div> 
             <div class="card-img-overlay">
               <h3 class="card-title">Rose Syrup Ice Tea</h3>              
@@ -399,82 +380,66 @@
         </div>
       </div>
 
-
-    <!-- <div class="bg-image hover-overlay hover-zoom hover-shadow ripple">
-      <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" class="w-100" />
-      <a href="#!">
-        <div class="mask" style="background-color: rgba(57, 192, 237, 0.2)"></div>
-      </a>
-    </div>
-       -->
-
        <!-- cat-dog-8?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????? -->
     
-
-      <div class="cat-dog-8 row  row-cols-md-8   mt-5 mb-5  ">
-      
-          <div class="card h-100 ps-2 border border-0 col ">
+       <div class="container mt-5 pe-0">
+        <div class="cat-dog-8 row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-8">
+          <div class="card  border border-0 col ">
             <img src="./image/food-8-img4.jpg" class="card-img-top rounded-circle "   alt="..."> 
             <div class="card-body">
               <a href="#" class="night text-decoration-none ps-2 text-black ">APPETIZER</a>            
             </div>            
           </div>
-     
-          <div class="card h-100 border border-0 col">
-            <img src="./image/food-8-img4.jpg" class="card-img-top rounded-circle "   alt="..."> 
-            <div class="card-body">
-              <a href="#"class="night text-decoration-none ps-2 text-black">BEVERAGES</a>
-            </div>
-            
-          </div>
-      
-          <div class="card h-100 col ">
+          <div class="card border border-0 col ">
             <img src="./image/food-8-img6.jpg" class="card-img-top rounded-circle "   alt="..."> 
             <div class="card-body">
-              <a href="#" class="night text-decoration-none ps-4 text-black">BREAD</a>
-            </div>          
+              <a href="#" class="night text-decoration-none ps-2 text-black ">BEVERAGES</a>            
+            </div>            
           </div>
-       
-          <div class="card h-100 col ">
-            <img src="./image/food-8-img4.jpg" class="card-img-top rounded-circle "  alt="..."> 
-            <div class="card-body">
-              <a href="#" class="night text-decoration-none ps-4  text-black">PASTA</a>
-            </div>
-          </div>
-        
-          <div class="card h-100 col ">
+          <div class="card border border-0 col ">
             <img src="./image/food-8-img4.jpg" class="card-img-top rounded-circle "   alt="..."> 
             <div class="card-body">
-              <a href="#" class="night text-decoration-none ps-4 text-black">SALAD</a>
-            </div>
+              <a href="#" class="night text-decoration-none ps-2 text-black ">BREAD</a>            
+            </div>            
           </div>
-      
-          <div class="card h-100 col ">
-            <img src="./image/food-8-img4.jpg" class="card-img-top rounded-circle "   alt="..."> 
-            <div class="card-body">
-              <a href="#" class="night text-decoration-none ps-4 text-black">SOUP</a>
-            </div>
-          </div>
-        
-          <div class="card h-100 col ">
+          <div class="card border border-0 col ">
             <img src="./image/food-8-img6.jpg" class="card-img-top rounded-circle "   alt="..."> 
-            <div class="card-body fst-normal">
-              <a href="#" class="night text-decoration-none ps-4 text-black">SWEET</a>
-            </div>
-          </div>
-      
-          <div class="card h-100 col">
-            <img src="./image/food-8-img4.jpg" class="card-img-top rounded-circle "  alt="..."> 
             <div class="card-body">
-              <a href="#" class="night text-decoration-none ps-4 text-black">VEGAN</a>
-            </div>
+              <a href="#" class="night text-decoration-none ps-2 text-black ">PASTA</a>            
+            </div>            
           </div>
-        
-      </div>
+          <div class="card border border-0 col ">
+            <img src="./image/food-8-img4.jpg" class="card-img-top rounded-circle "   alt="..."> 
+            <div class="card-body">
+              <a href="#" class="night text-decoration-none ps-2 text-black ">SALAD</a>            
+            </div>            
+          </div>
+          <div class="card border border-0 col ">
+            <img src="./image/food-8-img6.jpg" class="card-img-top rounded-circle "   alt="..."> 
+            <div class="card-body">
+              <a href="#" class="night text-decoration-none ps-2 text-black ">SOUP</a>            
+            </div>            
+          </div>
+          <div class="card border border-0 col ">
+            <img src="./image/food-8-img4.jpg" class="card-img-top rounded-circle "   alt="..."> 
+            <div class="card-body">
+              <a href="#" class="night text-decoration-none ps-2 text-black ">SWEET</a>            
+            </div>            
+          </div>
+          <div class="card border border-0 col ">
+            <img src="./image/food-8-img6.jpg" class="card-img-top rounded-circle "   alt="..."> 
+            <div class="card-body">
+              <a href="#" class="night text-decoration-none ps-2 text-black ">VEGAN</a>            
+            </div>            
+          </div>
+           
+        </div>
+       </div>
+
 
       <!-- cat-dog-10?????????????????????????????????????????????????????????????????????????????????????????????????????????????????? -->
     
-    <div class="row row-cols-1 row-cols-md-2 g-4 mt-5 container  ">
+    <div class="row row-cols-1 row-cols-md-2 g-4 mt-5   ">
       <div class="card-group cat-dog-10 col-md-8 ">
         <div class="card border border-0 " >
           <div class="card-body  ">
@@ -595,8 +560,6 @@
               </div>
             </div>         
           </div>
-
-
           <p class="font-monospace"> </p>
           <div class="d-flex justify-content-evenly">
             <button type="button" class="btn btn-primary btn-lg rounded-pill mb-5 ">LOAD  MORE  POSTS</button> 
@@ -624,15 +587,9 @@
             </div>
             <a href="#" class="btn rounded-pill ms-5 ">Go somewhere</a>
           </div>
-
-
-
           <div class="card mt-5 ms-5" style="width: 15rem;height: 400px;">
             <img src="./image/ad-1.jpg" class="card-img-top_5" alt="...">
           </div>
-
-
-
           <div class="card mb-3 mt-5 border border-0 ms-5" style="max-width: 540px;height: 500px;">
             <div class="side_title d-flex justify-content-center  mt-5 pt-3 "> VEGAN RECIPES </div>
             <div class="right_3 row pt-5  ">
@@ -668,8 +625,7 @@
                 </div>
               </div>
             </div>
-          </div>
-         
+          </div>        
 
           <p class="font-monospace "></p>
           
@@ -692,9 +648,6 @@
               </form>              
             </div>
           </div> 
-
-
-
           <p class="font-monospace mt-5 ">
 
         <div class="side_title d-flex justify-content-center  mt-5 pt-3 ms-5"> VEGAN RECIPES </div>
@@ -733,19 +686,18 @@
       </div>   
     </div>
 
-
-
 <!-- cat-dog-6?????????????????????????????????????????????????????????????????????????????????????????????????????????????? -->
 
       <p class="font-monospace"> </p>  
     
 
-      <div class="row container cat-dog-6 mt-5   ">
-        <div class=" mt-5 mb-5 text-center fs-4">
+      
+        <div class=" mt-5 mb-5 text-center fs-4 cat-dog-6">
           <h2>Perfect for This Season</h2>
         </div>
-        <div class="card-group  " >          
-                <div class="card cat-dog-6 col-md-3 border border-0" >
+      <div class="row container   ">
+        <div class="card-group  mt-5 row row-cols-1 row-cols-md-3  " >          
+                <div class="card col border border-0" >
                   <img src="./image/61.jpg" class="card-img-top" alt="...">
                   <div class="card-img-overlay row">
                     <h3 class="card-title"><a href="#">8 Easy Instant Pot Recipes</a></h3>                    
@@ -755,7 +707,7 @@
                   </div>
                 </div>
                            
-                <div class="card cat-dog-6 col-md-3 border border-0" > 
+                <div class="card col border border-0" > 
                   <img src="./image/62.jpg" class="card-img-top" alt="...">
                   <div class="card-img-overlay">
                     <h3 class="card-title"><a href="#">Enjoy My Favourite Molten Chocolate Cake</a></h3>                    
@@ -764,7 +716,7 @@
                     <p><span><a href="#" id="num-comment">6</a></span> </p>           
                   </div>
                 </div>
-                <div class="card cat-dog-6 col-md-3 border border-0" >
+                <div class="card col border border-0" >
                   <img src="./image/63.jpg" class="card-img-top" alt="...">
                   <div class="card-img-overlay">
                     <h3 class="card-title"><a href="#">The Best Spaghetti Meat Sauce</a></h3>                    
@@ -772,14 +724,12 @@
                     <a href="#"><i class="fa fa-comments " aria-hidden="true"></i></a>
                     <p><span><a href="#" id="num-comment">6</a></span> </p>               
                   </div>
-                </div>
-         
-         </div>
-         
+                </div>         
+         </div>         
       </div>
-      <div class="row  container cat-dog-6 ">
-        <div class="card-group  " >          
-                <div class="card cat-dog-6 col-md-3 border border-0" >
+      <div class=" container ">
+        <div class="card-group  row row-cols-1 row-cols-md-3 " >          
+                <div class="card col border border-0" >
                   <img src="./image/64.jpg" class="card-img-top " alt="...">
                   <div class="card-img-overlay">
                     <h3 class="card-title"><a href="#">Brain Power Blueberry Smoothie</a></h3>                    
@@ -789,8 +739,7 @@
                                   
                   </div>
                 </div>
-                           
-                <div class="card cat-dog-6 col-md-3 border border-0" >
+                <div class="card col border border-0" >
                   <img src="./image/65.jpg" class="card-img-top " alt="...">
                   <div class="card-img-overlay">
                     <h3 class="card-title"><a href="#">Almond Pastry Cookies</a></h3>                    
@@ -799,7 +748,7 @@
                     <p><span><a href="#" id="num-comment">6</a></span> </p>           
                   </div>
                 </div>
-                <div class="card cat-dog-6 col-md-3 border border-0" >
+                <div class="card col border border-0" >
                   <img src="./image/66.jpg" class="card-img-top " alt="...">
                      <div class="card-img-overlay">
                       <h3 class="card-title"><a href="#">Rose Syrup Ice Tea</a></h3>                    
@@ -808,16 +757,10 @@
                       <p><span><a href="#" id="num-comment">6</a></span> </p>           
                     </div>
                     
-                  </div>
-                
-         
-         </div>
-         
+                  </div>              
+         </div>         
       </div>
-    </div>
-
-
-      
+    </div>     
 
 <!-- cat-dog-1???????????????????????????????????????????????????????????????????????????????? -->
 
@@ -862,10 +805,6 @@
 
 <!-- cat-dog-foot-6???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????? -->
 
-
-
-
- 
     <div class="cat-dog-foot-6 ">
       <div class="lable-circle rounded-circle bg-white ">
       <h2><a href="#" class="text-decoration-none fs-5 text-black text-center">Follow Me @Instagram</a></h2>
@@ -879,15 +818,9 @@
         <div class="col pe-0 ps-0"><img class="img-responsive w-100 h-100" src="./image/62.jpg" alt=""></div>
         
       </div>
-    </div>
-
-
-
-
-
-      
+    </div>      
         
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar w/ text</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -906,27 +839,16 @@
                 </li>
               </ul>
               <span class="navbar-text">
-                Cook & Write with 
+                Cook & Write with<i></i>by Alex Misty.
+                Tiny.Salt © Copyright 2020. All rights reserved.
+                
               </span>
             </div>
           </div>
         </nav>
       </div>
   </div>
-
-
   </div>
-    -->
-   
-
-
-    
-   
-
-
-
-
-
   <script src="bootstrap.min.js"></script>
 
 </body>
